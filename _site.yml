@@ -1,0 +1,25 @@
+name: "WatershedUGA"                            
+output_dir: "."
+navbar:
+  title: "WatershedUGA Data Portal"                              
+  type: inverse
+  left:
+    - text: "Data"
+      icon: fa fa-database
+      href: data.html
+    - text: "News"
+      icon: fa fa-newspaper
+      href: news.html
+    - text: "Contact"
+      icon: fa fa-envelope-o
+      href: contact.html                   
+  right:
+    - text: "WatershedUGA"
+      icon: fa fa-paper-plane
+      href: https://watershed.uga.edu 
+output:
+  html_document:
+    theme: readable
+    highlight: textmate
+    toc_float: TRUE
+runtime: shiny
